@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings id="a05693ab-1f36-4a5e-bc6a-f89f25669e73" name="Video only" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>Desktop video only</Description>
+  <Execution>
+    <TestTypeSpecific />
+    <AgentRule name="Local">
+      <SelectionCriteria>
+        <AgentProperty name="__Test Environment" value="__Placeholder_TestEnvironmentName" />
+        <AgentProperty name="__Machine Role" value="Local" />
+      </SelectionCriteria>
+      <DataCollectors>
+        <DataCollector friendlyName="Screen and Voice Recorder" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" uri="datacollector://microsoft/VideoRecorder/1.0"/>
+      </DataCollectors>
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>

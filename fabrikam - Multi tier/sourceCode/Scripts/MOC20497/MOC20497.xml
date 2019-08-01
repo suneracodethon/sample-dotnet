@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This XML file is shared between all the projects in this solution through linking -->
+<TFS>
+  <areas>
+    <area>Tickets</area>
+    <area parent="Tickets">Assignment</area>
+    <area parent="Tickets">Escalation</area>
+    <area>Dashboard</area>
+    <area parent="Dashboard">Alerts</area>
+    <area parent="Dashboard">Messages</area>
+    <area parent="Dashboard">Tips</area>
+    <area>Customers</area>
+    <area>Employees</area>
+    <area>Reports</area>
+    <area>Profile</area>
+    <area>Mobile</area>
+    <area>Social</area>
+  </areas>
+  <backlog>
+    <item>
+      <type>Product Backlog Item</type>
+      <title>Customer zip code validation</title>
+      <description>As a support engineer entering customer information, I want zip code validation, so that I can be instantly informed about a bad zip code.</description>
+      <acceptancecriteria>
+        <![CDATA[<u>Acceptance criteria</u>
+        <p /><br />
+        <ul style="padding-left: 20px; margin-top: 0px;">
+        <li>Must support Zip+4 (with or without a dash}</li>
+        <li>Validation warning message must be in red</li>
+        </ul> 
+        <p />
+        <u>Manual test steps</u>
+        <p /><br />
+        <ol style="padding-left: 20px; margin-top: 0px;">
+        <li>Navigate to Fabrikam Fiber home page</li>
+        <li>Click Customers {Customer list displays}</li>
+        <li>Click Edit next to customer Dan Bacon {Edit screen displays}</li>
+        <li>Change the customer's zip code to "98052ABC"</li>
+        <li>Click Save {Validation warning displays}</li>
+        </ol>]]>
+      </acceptancecriteria>
+      <area>\Customers</area>
+      <assignedto></assignedto>
+      <businessvalue>40</businessvalue>
+      <state>approved</state>
+    </item>
+    <item>
+      <type>Product Backlog Item</type>
+      <title>Employee service areas</title>
+      <description>As a support manager, I want to track which areas each employees cover, so that I can assign support tickets based on geography.</description>
+      <acceptancecriteria>
+        <![CDATA[<u>Acceptance criteria</u>
+        <p /><br />
+        <ul style="padding-left: 20px; margin-top: 0px;">
+        <li>Allow comma-separated string of areas</li>
+        <li>Displayed on Employees list page</li>
+        </ul> 
+        <p />
+        <u>Manual test steps</u>
+        <p /><br />
+        <ol style="padding-left: 20px; margin-top: 0px;">
+        <li>Navigate to Fabrikam Fiber home page</li>
+        <li>Click Employees {Employee list displays}</li>
+        <li>Click Edit next to employee Drew Robbins {Edit screen displays}</li>
+        <li>Change Service Areas to "98052, 98053, 98073"</li>
+        <li>Click Save {Service areas are displayed}</li>
+        <li>Click Edit next to employee Drew Robbins {Edit screen displays}</li>
+        <li>Clear the Service Areas field</li>
+        <li>Click Save {Service areas have been removed}</li>
+        </ol>]]>
+      </acceptancecriteria>
+      <area>\Employees</area>
+      <assignedto></assignedto>
+      <businessvalue>60</businessvalue>
+      <state>approved</state>
+    </item>
+    <item>
+      <type>Product Backlog Item</type>
+      <title>Level 3 escalation</title>
+      <description>As a support engineer, I want to be able to escalate a ticket to level 3, so that it reflects the highest level of importance to the organization.</description>
+      <acceptancecriteria>
+        <![CDATA[<u>Acceptance criteria</u>
+        <p /><br />
+        <ul style="padding-left: 20px; margin-top: 0px;">
+        <li>Selected in the same way as other escalation levels</li>
+        <li>Displayed on Dashboard page</li>
+        <li>Displayed on Service Tickets page</li>
+        </ul> 
+        <p />
+        <u>Manual test steps</u>
+        <p /><br />
+        <ol style="padding-left: 20px; margin-top: 0px;">
+        <li>Navigate to Fabrikam Fiber home page</li>
+        <li>Click ticket number A014103 {Service ticket screen displays}</li>
+        <li>Click Edit {Edit screen displays}</li>
+        <li>Select Escalation Level of "Level 3"</li>
+        <li>Click Save</li>
+        <li>Click Dashboard {Ticket shows Level 3 escalation}</li>
+        <li>Click ticket number A014103 {Service ticket screen displays}</li>
+        <li>Click Edit {Edit screen displays}</li>
+        <li>Reset Escalation Level to "Level 1"</li>
+        <li>Click Save</li>
+        <li>Click Dashboard {Ticket shows original escalation level}</li>
+        </ol>]]>
+      </acceptancecriteria>
+      <area>\Tickets\Escalation</area>
+      <assignedto></assignedto>
+      <businessvalue>80</businessvalue>
+      <state>approved</state>
+    </item>
+    <item>
+      <type>Product Backlog Item</type>
+      <title>Employee zip code validation</title>
+      <description>As a manager entering employee information, I want zip code validation, so that I can be instantly informed about a bad zip code.</description>
+      <acceptancecriteria>
+        <![CDATA[<u>Acceptance criteria</u>
+        <p /><br />
+        <ul style="padding-left: 20px; margin-top: 0px;">
+        <li>Must support Zip+4 (with or without a dash)</li>
+        <li>Validation warning message must be in red</li>
+        </ul> 
+        <p />
+        <u>Manual test steps</u>
+        <p /><br />
+        <ol style="padding-left: 20px; margin-top: 0px;">
+        <li>Navigate to Fabrikam Fiber home page</li>
+        <li>Click Employees {Employee list displays}</li>
+        <li>Click Edit next to employee Brian Keller {Edit screen displays}</li>
+        <li>Change the employee's zip code to "98052ABC"</li>
+        <li>Click Save {Validation warning displays}</li>
+        </ol>]]>
+      </acceptancecriteria>
+      <area>\Employees</area>
+      <assignedto></assignedto>
+      <businessvalue>30</businessvalue>
+      <state>approved</state>
+    </item>
+    <item>
+      <type>Product Backlog Item</type>
+      <title>Add new employee</title>
+      <description>As a support manager, I want to be able to add new emloyees myself, so that we can start planning and tracking their work immediately.</description>
+      <acceptancecriteria>
+        <![CDATA[<u>Acceptance criteria</u>
+        <p /><br />
+        <ul style="padding-left: 20px; margin-top: 0px;">
+        <li>Feature should be available from the employee list page</li>
+        <li>Prompt for name, address, and service areas</li>
+        </ul> 
+        <p />
+        <u>Manual test steps</u>
+        <p /><br />
+        <ol style="padding-left: 20px; margin-top: 0px;">
+        <li>Navigate to Fabrikam Fiber home page</li>
+        <li>Click Employees {Employee list displays}</li>
+        <li>Click Create New button {New employee screen displays}</li>
+        <li>Enter First Name of "Elwood"</li>
+        <li>Enter Last Name of "McGee"</li>
+        <li>Enter Address of "1 Microsoft Way"</li>
+        <li>Enter City of "Redmond"</li>
+        <li>Enter State of "WA"</li>
+        <li>Enter Zip of "98052"</li>
+        <li>Click Create {New employee is listed}</li>
+        <li>Click Delete next to employee Elwood McGee {Confirmation screen displays}</li>
+        <li>Click Delete {New employee is no longer listed}</li>
+        </ol>]]>
+      </acceptancecriteria>
+      <area>\Employees</area>
+      <assignedto></assignedto>
+      <businessvalue>70</businessvalue>
+      <state>approved</state>
+    </item>
+  </backlog>
+  <plan>
+    <task>
+      <title>Create a test plan</title>
+      <remainingwork>1</remainingwork>
+    </task>
+    <task>
+      <title>Create a test suite</title>
+      <remainingwork>1</remainingwork>
+    </task>
+    <task>
+      <title>Create a test case</title>
+      <remainingwork>1</remainingwork>
+    </task>
+    <task>
+      <title>Perform exploratory testing</title>
+      <remainingwork>4</remainingwork>
+    </task>
+    <task>
+      <title>Create automated regression tests</title>
+      <remainingwork>2</remainingwork>
+    </task>
+  </plan>
+</TFS>

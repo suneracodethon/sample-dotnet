@@ -1,0 +1,45 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "When running IIS Express, you may find that you cannot get Fabrikam to run or debug. Instead, you are presented with an \"Unable to launch IIS Express Web server\" error dialog (attached).\n\nThe fix is to unload the project file, remove the IIS section (see below), and then reload the project file  and then fix it through the UI.\n\n```\n<ProjectExtensions>\n    <VisualStudio>\n      <FlavorProperties GUID=\"{349c5851-65df-11da-9384-00065b846f21}\">\n        <WebProjectProperties>\n          <UseIIS>True</UseIIS>\n          <AutoAssignPort>True</AutoAssignPort>\n          <DevelopmentServerPort>16535</DevelopmentServerPort>\n          <DevelopmentServerVPath>/</DevelopmentServerVPath>\n          <IISUrl>http://localhost:16535/</IISUrl>\n          <NTLMAuthentication>False</NTLMAuthentication>\n          <UseCustomServer>False</UseCustomServer>\n          <CustomServerUrl>\n          </CustomServerUrl>\n          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>\n        </WebProjectProperties>\n      </FlavorProperties>\n    </VisualStudio>\n  </ProjectExtensions>\n```",
+    "LastUpdatedDate": "2014-04-14T08:00:31.793-07:00",
+    "PlannedForRelease": "",
+    "ReleaseVisibleToPublic": false,
+    "Priority": {
+      "Name": "Unassigned",
+      "Severity": 0,
+      "Id": 0
+    },
+    "ProjectName": "fabrikam",
+    "ReportedDate": "2014-04-14T07:57:32.68-07:00",
+    "Status": {
+      "Name": "Proposed",
+      "Id": 1
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Potential problem with IIS Express",
+    "Type": {
+      "Name": "Unassigned",
+      "Id": 5
+    },
+    "VoteCount": 1,
+    "Id": 1767
+  },
+  "FileAttachments": [
+    {
+      "FileId": 794,
+      "FileName": "IISExpress.jpg",
+      "DownloadUrl": ".\\794"
+    }
+  ],
+  "Comments": []
+}

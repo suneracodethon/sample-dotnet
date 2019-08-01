@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1362516",
+    "ThreadId": "586046",
+    "Html": "Is it possible to get a setup guide. That is what users need to be created and various other aspects to match the usage of the application.\r<br />\n<br />\nThanks.<br />\n",
+    "PostedDate": "2015-03-11T09:07:18.357-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1362675",
+    "ThreadId": "586046",
+    "Html": "What kind of content are you looking for? A setup guide for running the Fabrikam website installer? The source code downloads are pretty self-explanatory, and the 20497 scripts are meant to be used during the delivery of the MOC 20497 course (the &quot;setup guide&quot; is part of that course).\r<br />\n<br />\nLet me know specifically what you are looking for.\r<br />\n<br />\nThanks.<br />\n",
+    "PostedDate": "2015-03-11T20:09:32.607-07:00",
+    "UserRole": "Owner",
+    "MarkedAsAnswerDate": null
+  }
+]

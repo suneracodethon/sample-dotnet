@@ -1,0 +1,39 @@
+{
+  "WorkItem": {
+    "AffectedComponent": {
+      "Name": "",
+      "DisplayName": ""
+    },
+    "ClosedComment": "",
+    "ClosedDate": null,
+    "CommentCount": 0,
+    "Custom": null,
+    "Description": "The setup utility has been misbehaving lately. It is not removing and adding iterations and areas correctly which results in errors like this: __Received invalid “area path” value Fabrikam\\Customers__.\n\nVSO must have changed the behavior of its API.\n\nAll fixed now.",
+    "LastUpdatedDate": "2015-02-27T14:11:50.137-08:00",
+    "PlannedForRelease": "MOC 20497 Scripts",
+    "ReleaseVisibleToPublic": true,
+    "Priority": {
+      "Name": "High",
+      "Severity": 150,
+      "Id": 3
+    },
+    "ProjectName": "fabrikam",
+    "ReportedDate": "2015-02-27T14:11:26.6-08:00",
+    "Status": {
+      "Name": "Resolved",
+      "Id": 7
+    },
+    "ReasonClosed": {
+      "Name": "Unassigned"
+    },
+    "Summary": "Iterations and Areas not being created",
+    "Type": {
+      "Name": "Issue",
+      "Id": 3
+    },
+    "VoteCount": 1,
+    "Id": 1930
+  },
+  "FileAttachments": [],
+  "Comments": []
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "Id": "0",
+    "Name": "MOC 20497 Scripts",
+    "DevelopmentStatus": "Stable",
+    "Description": "Sep 2016: Updated for Visual Studio 2015 and latest VSTS APIs.\n\nThis file contains files and setup scripts to be used by instructors deliver the official Microsoft training course 20497.\n\n+Important+: Make sure to review any config files before running any of the scripts. You will need to make changes according to your Visual Studio Online and team project settings.\n\nIf you have any questions or concerns, please [url:contact me|mailto:richard@accentient.com]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2016-09-28T16:02:40.523-07:00",
+    "Files": [
+      {
+        "Id": "a24aa598-c977-4127-b08c-737756836842",
+        "FileName": "MOC 20497 Scripts.zip",
+        "Url": "./0/a24aa598-c977-4127-b08c-737756836842",
+        "Type": "Application",
+        "UploadDate": "2016-09-28T16:02:36.453-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "1",
+    "Name": "Fabrikam Fiber Website Installer",
+    "DevelopmentStatus": "Stable",
+    "Description": "This installer is intended for provisioning a classroom computer, running IIS, with an instance of the Fabrikam Fiber website. The installer is very basic and makes these assumptions:\n\n* Installs to c:\\inetpub\\wwwroot\\fabrikam (by default)\n* Creates a new site named _fabrikam_ running on port _1337_\n* Uses the _DefaultAppPool_\n\n+Important+: The DefaultAppPool must have \"Enable 32-bit applications\" set to true and run under a process identity with adequate permissions, such as _LocalSystem_.\n\nAfter installing, you should be able to browse to http://localhost:1337 and interact with the website.\n\nIf you have any questions or concerns, please [url:contact me|mailto:richard@accentient.com]",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-03-20T15:11:10.047-07:00",
+    "Files": [
+      {
+        "Id": "cb6a3263-e6a3-468b-a6fd-ab5cb109d369",
+        "FileName": "Fabrikam Fiber Website Installer.msi",
+        "Url": "./1/cb6a3263-e6a3-468b-a6fd-ab5cb109d369",
+        "Type": "Application",
+        "UploadDate": "2014-01-22T14:44:43.91-08:00"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Fabrikam Fiber Source (Visual Studio 2013)",
+    "DevelopmentStatus": "Stable",
+    "Description": "The Fabrikam Fiber Call Center solution and related projects. This is the source code that accompanied the Visual Studio 2013 Virtual Machine produced by [url:Brian Keller|http://aka.ms/vs13almvm].",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-12-01T10:31:02.137-08:00",
+    "Files": [
+      {
+        "Id": "d5e7441b-63bb-4e3c-add6-630ed980ebb0",
+        "FileName": "FabrikamFiber_VS2013_RTM.zip",
+        "Url": "./2/d5e7441b-63bb-4e3c-add6-630ed980ebb0",
+        "Type": "Source Code",
+        "UploadDate": "2013-10-14T17:25:03.403-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Fabrikam Fiber Source (Visual Studio 2012)",
+    "DevelopmentStatus": "Stable",
+    "Description": "The Fabrikam Fiber Call Center solution and related projects. This is the source code that accompanied the Visual Studio 2012 ALM Virtual Machine produced by [url:Brian Keller|http://aka.ms/vs11almvm].",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2014-12-01T10:30:12.853-08:00",
+    "Files": [
+      {
+        "Id": "9f96a4ed-63dd-4e6b-a98e-9b8dbd10ddc7",
+        "FileName": "FabrikamFiber_VS2012_RTM.zip",
+        "Url": "./3/9f96a4ed-63dd-4e6b-a98e-9b8dbd10ddc7",
+        "Type": "Source Code",
+        "UploadDate": "2013-10-01T14:23:54.973-07:00"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Fabrikam Fiber Source (Visual Studio 2015)",
+    "DevelopmentStatus": "Stable",
+    "Description": "The Fabrikam Fiber Call Center solution and related projects. Code has been semi-upgraded from 2013 to open and run in Visual Studio 2015, with some warnings and several opportunities to improve the code and functionality. Thanks to [url:Jesse Houwing|http://blog.jessehouwing.nl] for his assistance.\n\nNote: This release only contains the FabrikamFiber.Web and FabrikamFiber.DAL projects.",
+    "ReleasedDatge": "0001-01-01T00:00:00",
+    "ModifiedDate": "2015-12-15T07:44:16.313-08:00",
+    "Files": [
+      {
+        "Id": "82a91ff8-4676-40fd-983a-01acea28d4d0",
+        "FileName": "FabrikamFiber_VS2015_RTM.zip",
+        "Url": "./4/82a91ff8-4676-40fd-983a-01acea28d4d0",
+        "Type": "Source Code",
+        "UploadDate": "2015-12-15T07:43:18.343-08:00"
+      }
+    ]
+  }
+]

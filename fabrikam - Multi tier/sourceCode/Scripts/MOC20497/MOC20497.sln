@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D250F9A-03B6-45BA-AFD8-359CAF2A920D}"
+	ProjectSection(SolutionItems) = preProject
+		MOC20497.config = MOC20497.config
+		MOC20497.xml = MOC20497.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOC20497.Lab2Setup", "MOC20497.Lab2Setup\MOC20497.Lab2Setup.csproj", "{72F8B463-CB3C-4808-B452-7FBE795AFC86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOC20497.LabSimulations", "MOC20497.LabSimulations\MOC20497.LabSimulations.csproj", "{4E6D274E-6735-45B0-A5BD-87173CBC64D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOC20497.VSTS", "MOC20497.VSTS\MOC20497.VSTS.csproj", "{A184C38E-6E10-433F-BE08-4192E85D5FD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72F8B463-CB3C-4808-B452-7FBE795AFC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F8B463-CB3C-4808-B452-7FBE795AFC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F8B463-CB3C-4808-B452-7FBE795AFC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F8B463-CB3C-4808-B452-7FBE795AFC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6D274E-6735-45B0-A5BD-87173CBC64D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6D274E-6735-45B0-A5BD-87173CBC64D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6D274E-6735-45B0-A5BD-87173CBC64D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6D274E-6735-45B0-A5BD-87173CBC64D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A184C38E-6E10-433F-BE08-4192E85D5FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A184C38E-6E10-433F-BE08-4192E85D5FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A184C38E-6E10-433F-BE08-4192E85D5FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A184C38E-6E10-433F-BE08-4192E85D5FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs16
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MOC20497.Lab2Setup\\MOC20497.Lab2Setup.csproj
+		SccProjectName1 = MOC20497.Lab2Setup
+		SccLocalPath1 = MOC20497.Lab2Setup
+		SccProjectUniqueName2 = MOC20497.LabSimulations\\MOC20497.LabSimulations.csproj
+		SccProjectName2 = MOC20497.LabSimulations
+		SccLocalPath2 = MOC20497.LabSimulations
+		SccProjectUniqueName3 = MOC20497.VSTS\\MOC20497.VSTS.csproj
+		SccProjectName3 = MOC20497.VSTS
+		SccLocalPath3 = MOC20497.VSTS
+	EndGlobalSection
+EndGlobal

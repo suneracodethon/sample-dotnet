@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSettings id="a05693ab-1f36-4a5e-bc6a-f89f25669e73" name="System information only" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Description>System information only</Description>
+  <Execution>
+    <TestTypeSpecific />
+    <AgentRule name="Local">
+      <SelectionCriteria>
+        <AgentProperty name="__Test Environment" value="__Placeholder_TestEnvironmentName" />
+        <AgentProperty name="__Machine Role" value="Local" />
+      </SelectionCriteria>
+      <DataCollectors>
+        <DataCollector friendlyName="System Information" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" uri="datacollector://microsoft/SystemInfo/1.0"/>
+      </DataCollectors>
+    </AgentRule>
+  </Execution>
+  <Properties />
+</TestSettings>
